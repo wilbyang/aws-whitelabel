@@ -1,5 +1,6 @@
 {
     "name": "acelle/aws-whitelabel",
+    "type": "library",
     "title": "AWS Whitelabel Plugin For Acelle",
     "version": "1.0.3",
     "app_version": "4.0.24-p103",
@@ -24,5 +25,8 @@
         "setting-route": "\\Acelle\\Plugin\\AwsWhitelabel\\Controllers\\MainController@index"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0"
+    }
 }
